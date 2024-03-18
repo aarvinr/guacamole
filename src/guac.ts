@@ -9,5 +9,5 @@ export function guac(strings: TemplateStringsArray, ...args: string[]): string {
     return acc + args[i - 1] + str;
   });
 
-  return res.trim();
+  return res.trim().replace(/\s{2,}/g, " ").trim();
 }
