@@ -1,0 +1,5 @@
+{
+  "name": "@aarvinr/guacamole",
+  "version": "0.0.0",
+  "exports": "./src/guac.js"
+}
