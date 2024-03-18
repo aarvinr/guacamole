@@ -9,7 +9,7 @@ A refreshingly simple UI library based on code generation.
 You can use `guac` as a tagged template function to pass markup. Embed other
 components with expressions.
 
-```jsx
+```js
 function App() {
   return guac`
     <p>Hello World!</p>
@@ -22,7 +22,7 @@ function App() {
 
 You can use the built-in JavaScript operators & functions for rendering.
 
-```jsx
+```js
 function List() {
   const show = true;
   const list = ["Bob", "Ava"];
@@ -33,7 +33,7 @@ function List() {
 }
 ```
 
-```jsx
+```js
 function List() {
 	const show = true;
 	const list = ["Bob", "Ava"];
