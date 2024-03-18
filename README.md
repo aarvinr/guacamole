@@ -15,7 +15,9 @@ components with expressions.
 
 ```js
 function App() {
-  return guac`<p>Hello World!</p>${Button("Click me!")}`;
+  return guac`
+    <p>Hello World!</p>
+    ${Button("Click me!")}`;
 }
 ```
 
@@ -29,7 +31,8 @@ function List() {
   const list = ["Bob", "Ava"];
 
   if (show) {
-    return guac`${list.map((item) => guac`<ul>${item}</ul>`)}`;
+    return guac`
+      ${list.map((item) => guac`<ul>${item}</ul>`)}`;
   }
 }
 ```
