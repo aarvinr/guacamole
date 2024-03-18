@@ -9,5 +9,5 @@ export function guac(strings: TemplateStringsArray, ...args: string[]): string {
     return acc + args[i - 1] + str;
   });
 
-  return res;
+  return res.trim();
 }
