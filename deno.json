@@ -1,6 +1,6 @@
 {
   "name": "@aarvinr/guacamole",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "exports": "./src/guac.ts",
   "publish": {
     "include": ["src/**/*.ts", "LICENSE", "README.md", "deno.json"]
