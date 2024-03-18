@@ -18,5 +18,5 @@ export function guac(
     return acc + args[i - 1] + str;
   });
 
-  return res.trim().replace(/\s{2,}/g, " ").trim();
+  return res.trim().replace(/\s{2,}/g, " ").replaceAll("> <", "><").trim();
 }
