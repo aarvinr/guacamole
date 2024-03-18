@@ -38,14 +38,8 @@ function List() {
   const show = true;
   const list = ["Bob", "Ava"];
 
-  return guac`
-		${
-    show
-      ? guac`
-      ${list.map((item) => guac`<ul>${item}</ul>`).join("")}
-		`
-      : null
-  }
-	`;
+  return guac`${
+    show ? guac`${list.map((item) => guac`<ul>${item}</ul>`).join("")}` : null
+  }`;
 }
 ```
