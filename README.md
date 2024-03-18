@@ -1,5 +1,8 @@
 # guacamole
 
+[![JSR](https://jsr.io/badges/@aarvinr/guacamole?style=for-the-badge)](https://jsr.io/@aarvinr/guacamole)
+[![Deno JS](https://img.shields.io/badge/deno-000000?style=for-the-badge&logo=deno&logoColor=white)](https://deno.com/)
+
 A refreshingly simple UI library based on code generation.
 
 ## Usage
